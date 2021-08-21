@@ -2,12 +2,15 @@ var $titulo = document.querySelector('h1');
 var $linkedin = document.querySelector('.fa-linkedin-in');
 var $github = document.querySelector('.fa-github');
 var $google= document.querySelector('.fa-google-plus-g');
-var $texto= document.querySelector('p');
+var $texto= document.querySelector('.introduction');
+var $texto2= document.querySelector('p');
+var $texto3= document.querySelector('.texto');
 var $links= document.querySelector('.link4');
 var $links2= document.querySelector('.link');
 var $links3= document.querySelector('.link2');
 var $links4= document.querySelector('.link3');
 var $links5= document.querySelector('.link5');
+var $btn= document.querySelector('.btn');
 
 
 function cor(){
@@ -22,7 +25,11 @@ function cor(){
     $links3.style.color ="white";
     $links4.style.color ="white";
     $links5.style.color ="white";
-    $links5.style.after ="white";
+    $links5.style.color ="white";
+    $texto2.style.color ="white";
+    $texto3.style.color ="white";
+    $btn.style.backgroundColor ="white";
+    $btn.style.color ="black";
     document.getElementById('noturno').style.fontSize = '0px';
     document.getElementById('claro').style.fontSize = "18px";
     document.getElementById('claro').style.color = "white";
@@ -41,6 +48,10 @@ function corPadrao(){
     $links4.style.color ="black";
     $links5.style.color ="black";
     $links5.style.after ="black";
+    $texto2.style.color ="black";
+    $texto3.style.color ="black";
+    $btn.style.backgroundColor ="#B310FF";
+    $btn.style.color ="white";
     document.getElementById('noturno').style.fontSize = '16px';
     document.getElementById('claro').style.fontSize = "0px";
     document.getElementById('claro').style.color = "white";

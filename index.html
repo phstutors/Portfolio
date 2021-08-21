@@ -9,28 +9,44 @@
     <title>Document</title>
 </head>
 <body id="body">
-    <nav id="navbar"></nav>
+    <nav class="nav__menu" id="nav__menu"></nav>
         <ul class="navbar-lista" id="list">
-            <li><a href="#" class="link5">Home</a></li>
-            <li><a href="#" class="link">Sobre</a></li>
-            <li><a href="#" class="link2">Trabalhos</a></li>
-            <li><a href="#" class="link3">Habilidades</a></li>
-            <li><a href="#" class="link4">Contate-me</a></li>
+            <li><a href="#" id="links" class="link5">Home</a></li>
+            <li><a href="sobre" id="links" class="link">Sobre</a></li>
+            <li><a href="#" id="links" class="link2">Trabalhos</a></li>
+            <li><a href="#" id="links" class="link3">Habilidades</a></li>
+            <li><a href="#" id="links" class="link4">Contate-me</a></li>
             <li><a onclick="cor()"><i class="fas fa-moon" id="noturno"></i></a></li>
             <li><a><i class="far fa-sun" id="claro" onclick="corPadrao()"></i></a></li>
         </ul>
     </nav>
-    <nav id="navbar-left">
+    <nav id="navbar-left" class="nav__toggle">
         <ol class="navbar-lista2">
             <li class="list-item" ><i class="fab fa-linkedin-in"></i></li>
             <li class="list-item"><i class="fab fa-github"></i></li>
             <li class="list-item"><i class="fab fa-google-plus-g"></i></li>
         </ol>
     </nav>
-    <div class="introduction">
-        <h1>Ola, Me Chamo Pedro!</h1>
-        <p>Tenho Grandes Habilidades em: <br> Html5, css3, Redes de Computadores, <br>Python3,  Manipulação de Imagem Via<br> Photoshop, Php7 e SqlServer.</p>
-        </div>
-        <script src="js/noturno.js"></script>
+    <div class="introduction"></div>
+        <h1 class="line typing-animation">&nbsp Ola, Me Chamo Pedro,</h1>
+        <p class="line typing-animation">conhecido como RaposaDev,</p>
+        <p class="line typing-animation"><i class="texto">Tenho Grandes Habilidades em: <br> Html5, css3, Redes de Computadores, <br>Python3,  Manipulação de Imagem Via<br> Photoshop, Php7 e SqlServer.</i></p>
+        <a href="https://www.webwhatsapp" class="btn">Orçamento</i></a>
+    </div>
+    <img src="imagens/perfil.png" class="perfil">
+    <div vw class="enabled">
+    <div vw-access-button class="active"></div>
+    <div vw-plugin-wrapper>
+        <div class="vw-plugin-top-wrapper"></div>
+    </div>
+    </div>
+    <script src="https://vlibras.gov.br/app/vlibras-plugin.js"></script>
+    <script>
+        new window.VLibras.Widget('https://vlibras.gov.br/app');
+    </script>
+    <script src="js/noturno.js"></script>
+    <footer>
+
+    </footer>
 </body>
 </html>
