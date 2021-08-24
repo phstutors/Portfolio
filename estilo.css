@@ -4,6 +4,7 @@ body{
     margin: 0;
     font-family: 'Rubik', sans-serif;
     width: 720px;
+    padding: 0;
 }
 ul,li{
     text-decoration: none;
@@ -13,6 +14,9 @@ ul,li{
     left: 300px;
     top: 0px;
     color: black;
+    cursor: pointer;
+}
+i{
     cursor: pointer;
 }
 #links{
@@ -78,6 +82,26 @@ p{
     animation: blinkCursor 500ms steps(40) infinite normal,
     typing 3s steps(40) 1s normal both;
 }
+.typing2-animation {
+    animation: blinkCursor 500ms steps(40) infinite normal,
+    typing 3s steps(40) 4s normal both;
+}
+.typing3-animation {
+    animation: blinkCursor 500ms steps(40) infinite normal,
+    typing 3s steps(40) 7s normal both;
+}
+.typing4-animation {
+    animation: blinkCursor 500ms steps(40) infinite normal,
+    typing 3s steps(40) 10s normal both;
+}
+.typing5-animation {
+    animation: blinkCursor 500ms steps(40) infinite normal,
+    typing 3s steps(40) 13s normal both;
+}
+.typing6-animation {
+    animation: blinkCursor 500ms steps(40) infinite normal,
+    typing 3s steps(40) 16s normal both;
+}
 
 @keyframes typing {
     from {
@@ -87,7 +111,6 @@ p{
         width: 20em;
     }
 }
-
 @keyframes blinkCursor {
     from {
         border-right-color: rgba(255, 255, 255, 0.75);
@@ -101,9 +124,6 @@ p{
     left:820px;
     top: -377px;
     width: 380px;
-}
-footer{
-
 }
 .btn{
     display: inline-block;
@@ -130,4 +150,18 @@ footer{
 }
 .btn:hover{
     background-image: linear-gradient(to bottom right, #2D0440 , #B310FF);
+}
+footer{
+    position: relative;
+    bottom: 0;
+    background-color: #D3D3D3;
+    width: 1422px;
+    margin:0;
+}
+footer i{
+    text-align: center;
+    font-size: 2rem;
+    padding: 25px;
+    position: relative;
+    left: 540px;
 }

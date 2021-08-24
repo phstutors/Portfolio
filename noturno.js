@@ -5,13 +5,19 @@ var $google= document.querySelector('.fa-google-plus-g');
 var $texto= document.querySelector('.introduction');
 var $texto2= document.querySelector('p');
 var $texto3= document.querySelector('.texto');
+var $texto3= document.querySelector('.line');
 var $links= document.querySelector('.link4');
 var $links2= document.querySelector('.link');
 var $links3= document.querySelector('.link2');
 var $links4= document.querySelector('.link3');
 var $links5= document.querySelector('.link5');
 var $btn= document.querySelector('.btn');
-
+var $texto4= document.querySelector('.typing-animation');
+var $texto5= document.querySelector('.typing2-animation');
+var $texto6= document.querySelector('.typing3-animation');
+var $texto7= document.querySelector('.typing4-animation');
+var $texto8= document.querySelector('.typing5-animation');
+var $texto9= document.querySelector('.typing6-animation');
 
 function cor(){
 	document.getElementById('body').style.backgroundColor = '#9400D3'
@@ -28,6 +34,12 @@ function cor(){
     $links5.style.color ="white";
     $texto2.style.color ="white";
     $texto3.style.color ="white";
+    $texto4.style.color ="white";
+    $texto5.style.color ="white";
+    $texto6.style.color ="white";
+    $texto7.style.color ="white";
+    $texto8.style.color ="white";
+    $texto9.style.color ="white";
     $btn.style.backgroundColor ="white";
     $btn.style.color ="black";
     document.getElementById('noturno').style.fontSize = '0px';
@@ -50,6 +62,12 @@ function corPadrao(){
     $links5.style.after ="black";
     $texto2.style.color ="black";
     $texto3.style.color ="black";
+    $texto4.style.color ="black";
+    $texto5.style.color ="black";
+    $texto6.style.color ="black";
+    $texto7.style.color ="black";
+    $texto8.style.color ="black";
+    $texto9.style.color ="black";
     $btn.style.backgroundColor ="#B310FF";
     $btn.style.color ="white";
     document.getElementById('noturno').style.fontSize = '16px';
